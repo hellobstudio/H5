@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Hiányzáskövető</title>
+</head>
+<body>
+<header><span class="brand"><svg width="30" height="30" viewBox="0 0 64 64" aria-hidden="true"><rect x="12" y="6" width="7" height="14" rx="3.5" fill="currentColor"/><rect x="45" y="6" width="7" height="14" rx="3.5" fill="currentColor"/><rect x="6" y="12" width="52" height="46" rx="9" fill="currentColor"/><path d="M6 27h52" style="stroke:var(--o)" stroke-width="3"/><path d="M25 35l14 14M39 35L25 49" style="stroke:var(--o)" stroke-width="5" stroke-linecap="round"/></svg><b>Hiányzáskövető</b></span><button class="ib" id="th" data-act="theme" aria-label="Világos/sötét mód"></button></header>
+<main id="view"></main>
+<nav>
+  <button data-act="tab" data-id="rec"><span>✅</span>Rögzítés</button>
+  <button data-act="tab" data-id="st"><span>📊</span>Statisztika</button>
+  <button data-act="tab" data-id="stud"><span>👥</span>Diákok</button>
+  <button data-act="tab" data-id="set"><span>⚙️</span>Beállítások</button>
+</nav>
+<dialog id="dlg"></dialog>
+<div id="toast"></div>
+<script type="module" src="./app.js"></script>
+</body>
+</html>
